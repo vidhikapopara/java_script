@@ -1,19 +1,19 @@
-console.log("vidhi")
-console.log(10)
+
+// 1. String
+// 2. Number
+// 3. Bigint
+// 4. Boolean
+// 5. Undefined
+// 6. Null
+// 7. Symbol
+// 8. Object
 
 
-//variable name not start with the number
-//used aphabetls, $, _ only this in variable name
-//not used resived key word 
-
-fiestname="vidhi"
-name="isha"
-firstname="riya"
-console.log(fiestname)
-
-$first="yes"
-_next="yesss"
-fist&second="no"//not used any symbol
-new="nooo"//not used js keywords
-function="noo"
-_function="yess"
+let name=false;
+let email='vidhi123@'
+let age=19
+let language
+console.log(typeof name);
+console.log(typeof email);
+console.log(typeof age);
+console.log(typeof language);
