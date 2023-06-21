@@ -65,7 +65,19 @@ console.log(vidhi!="20")
 console.log(vidhi!==20)
 
 //bitwise operater
-const w = 5;     //8421 0101 0100  010100 101000
-const e = 1;         
+const w = 5;     //32168421 0101 1010  010100 101000
+const e = 1;       101000  
 
 console.log(5 << 3);
+
+
+//== and ===
+
+let ages ="20";
+if(ages === 20)
+{
+    console.log(" you became adult")
+}
+else{
+    console.log("you are not adult")
+}
