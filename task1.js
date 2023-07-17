@@ -14,7 +14,7 @@ function CountWaysToSplit(str)
             for(let i=1 ; i < len ; i ++) 
             {
                 for(let j = i + 1 ; j < len ; j++){
-                    const a = str.substring(0 , i)
+                    const a = str.substring(0 , i) // used for the extracts charters from 2 position
                     console.log('a is' , a)
 
                     const b = str.substring(i , j)
@@ -65,6 +65,6 @@ function CountWaysToSplit(str)
     }
 
 
-CountWaysToSplit("xzxzx")
+CountWaysToSplit("zzzzz")
 // CountWaysToSplit(12)
 
