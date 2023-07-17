@@ -112,4 +112,4 @@ switch (new Date().getDay()) {
 
   //array
   let name=["vidhi","isha","jinal"]
-  console.log(length.name);
+  console.log(name);
